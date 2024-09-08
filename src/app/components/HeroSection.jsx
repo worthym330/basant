@@ -24,9 +24,7 @@ const HeroSection = () => {
               sequence={[
                 "Basant Mandal",
                 1000,
-                "Backend Developer",
-                1000,
-                "Frontend Developer",
+                "Full Stack Developer",
                 1000,
                 "Cloud Engineer",
                 1000,
@@ -37,7 +35,10 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I am looking for a Software Engineer role and excel in frontend and backend development, particularly with React JS, Node JS, Prisma, and databases like MySQL and PostgreSQL.
+            I excel in cloud engineering with a strong background in full stack
+            development, specializing in React JS, Node JS, Prisma, and
+            databases like MySQL and PostgreSQL, while also having extensive
+            experience with cloud technologies and infrastructure.
           </p>
           <div>
             <Link
