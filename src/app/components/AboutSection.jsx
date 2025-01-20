@@ -8,39 +8,40 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Mongo DB</li>
-        <li>Nest.js</li>
-        {/* <li>Flutter</li> */}
+        <li>Node.js & Express.js</li>
+        <li>React.js & Next.js</li>
+        <li>TypeScript</li>
+        <li>AWS, GCP, Vercel</li>
+        <li>PostgreSQL, MySQL, MongoDB</li>
+        <li>Jenkins, GitHub Actions</li>
+        <li>Prometheus, Grafana</li>
+        <li>Core PHP</li>
       </ul>
     ),
   },
   {
-    title: "Education",
-    id: "education",
+    title: "Key Achievements",
+    id: "achievements",
     content: (
       <ul className="list-disc pl-2">
-        <li>Thakur College of Science and Commerce, Mumbai</li>
-        <li>Shri TP Bhatia College of Science, Mumbai</li>
+        <li>Designed and implemented scalable web applications using TypeScript, NodeJS, and PostgreSQL</li>
+        <li>Built NRICH invoicing system with ReactJS, NestJS, and MySQL</li>
+        <li>Developed DayBreakPass booking platform using TypeScript, React, ExpressJS, and MongoDB</li>
+        <li>Achieved 25% reduction in page load times through optimization</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Expertise",
+    id: "expertise",
     content: (
       <ul className="list-disc pl-2">
-        <li>Software Engineering in Agile process from Coursera</li>
-        <li>Database Operations in MariaDB using Python from Infosys</li>
-        <li>
-          Introduction to cloud 1 & Introduction to cloud 2 & Machine Learning
-          from AWS Academy.
-        </li>
+        <li>Full Stack Development</li>
+        <li>DevOps & Cloud Infrastructure</li>
+        <li>Database Management</li>
+        <li>System Architecture</li>
+        <li>Performance Optimization</li>
+        <li>Team Leadership</li>
       </ul>
     ),
   },
@@ -63,47 +64,40 @@ const AboutSection = () => {
         <div className="mt-4 lg:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am Basant Mandal, a Software Engineer from Kandivali (West),
-            Mumbai. I have experience in both frontend and backend development,
-            with expertise in React JS, Node JS, Prisma, MySQL, PostgreSQL, and
-            MongoDB. I previously worked as a Jr. Software Developer at One
-            Percent Startups, contributing to projects like NRICH and ITK. I
-            hold a BSc in Computer Science from Thakur College of Science &
-            Commerce, Mumbai. I am a quick learner and always looking to expand
-            my knowledge and skill set. I am a team player and excited to work
-            with others to create amazing applications. Additionally, I have
-            certifications in Agile processes, cloud computing, and machine
-            learning, focusing on building efficient web and mobile applications
-            with cloud integration.
+            I am a highly skilled and adaptable Full Stack and DevOps Engineer with a strong background in building scalable, 
+            efficient, and user-friendly applications. With extensive experience in NodeJS, ExpressJS, and modern frontend frameworks, 
+            I specialize in delivering end-to-end solutions that meet business needs. My expertise extends to implementing robust 
+            DevOps practices, ensuring seamless deployment, and maintaining high system availability.
+            <br/><br/>
+            I bring comprehensive knowledge in backend development with NodeJS and ExpressJS, frontend development using ReactJS 
+            and NextJS, and cloud platforms including AWS, GCP, and Vercel. My focus on continuous learning and staying updated 
+            with industry trends enables me to deliver innovative solutions while maintaining high standards of code quality 
+            and system performance.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              {" "}
-              Skills{" "}
+              Skills
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
+              selectTab={() => handleTabChange("achievements")}
+              active={tab === "achievements"}
             >
-              {" "}
-              Education{" "}
+              Achievements
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("expertise")}
+              active={tab === "expertise"}
             >
-              {" "}
-              Certifications{" "}
+              Expertise
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8"></div>
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
-      </div>
     </section>
   );
 };

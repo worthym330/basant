@@ -74,36 +74,6 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 7,
-    title: "Solitaire Planet",
-    description:
-      "Built and enhanced critical features for Solitaire Planet using React, Nest JS, and PostgreSQL. Developed lead conversion features, automated invoice generation, and implemented order completion tracking for seamless order management and invoicing.",
-    image: "https://solitaireplanet.com/static/media/solitaire_planet_logo-remove.f3d5854106539990e8dc.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 8,
-    title: "ITK",
-    description:
-      "Spearheaded the creation of the App Lab feature using NestJS, Prisma, PostgreSQL, MongoDB, ReactJS, and Redux. Integrated the feature across platforms and ensured a consistent user experience. Architected scalable backend infrastructure to support future growth.",
-    image: "https://itkkids.xyz/images/itk%20logo.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 9,
-    title: "Clinica-Med",
-    description:
-      "Contributed as a Frontend Developer using React.js and Fuse for UI design. Implemented a versatile component architecture and security measures in the student testing module, enhancing usability and preventing unauthorized access. Introduced a user-centric feature for automatic test submission on tab changes.",
-    image: "https://clinica-med.com/assets/images/logo/CMLwhitelogo.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
     id: 10,
     title: "Wix Website — Diabetic Doctors",
     description: "Developed a Wix website tailored for diabetic doctors. The site was designed to provide essential information and resources for diabetic care, featuring a user-friendly interface and easy navigation. It includes sections for doctor profiles, patient resources, and appointment scheduling.",
